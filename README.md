@@ -35,13 +35,13 @@ Create a REST endpoint that accepts an `issueKey` parameter and returns the key 
 **Usage:**
 Make a GET request to:
 ```
-/rest/scriptrunner/latest/custom/getParentIssueKey?issueKey=SUBTASK-123
+/rest/scriptrunner/latest/custom/getParentIssueKey?issueKey=TEST-7
 ```
 
 **Expected Response:**
 ```json
 {
-  "parentIssueKey": "PROJECT-1"
+  "parentIssueKey": "TEST-6"
 }
 ```
 
